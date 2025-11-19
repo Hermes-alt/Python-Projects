@@ -12,7 +12,9 @@ def is_automorphic2(n:int):
 
 
 n = 5
-for i in range(1,6):
- print(is_automorphic2(i))
+for i in range(1,1000):
+ if is_automorphic2(i) :
+   print(i, end=" ")
+
  
 
